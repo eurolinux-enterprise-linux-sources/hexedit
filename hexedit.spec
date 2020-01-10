@@ -1,7 +1,7 @@
 Summary: A hexadecimal file viewer and editor
 Name: hexedit
 Version: 1.2.13
-Release: 3%{?dist}
+Release: 5%{?dist}
 License: GPLv2+
 
 URL: http://rigaux.org/hexedit.html
@@ -40,6 +40,12 @@ make install \
 %{_mandir}/man1/hexedit.1*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.2.13-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2.13-4
+- Mass rebuild 2013-12-27
+
 * Fri Apr 05 2013 Richard W.M. Jones <rjones@redhat.com> - 1.2.13-3
 - Add patch to document --color option.
 - Modernize the spec file.
